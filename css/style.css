@@ -1,0 +1,249 @@
+@font-face{
+    font-family: 'Questa';
+    src: url(../assets/font/2-Questa_Regular.otf);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dadang{
+    border: 1px solid white;
+}
+
+/* Header */
+header{
+    background-image: url(../assets/img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white !important;
+    padding-bottom: 60px;
+}
+
+.navbar-brand{
+    font-family: 'Questa', sans-serif;
+}
+
+.navbar a{
+    color: white !important;
+    font-size: 1.1rem;
+    text-shadow: 1px 2px 3px #666;
+}
+
+.container .navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar a:hover{
+    color: rgb(189, 189, 189) !important;
+}
+
+.bg-light{
+    background-color: transparent !important;
+    transition: all .5s;
+}
+
+.bg-light.scrolled{
+    background-color:  rgba(41, 41, 41, 0.3) !important;
+}
+
+nav.scrolled{
+    padding-top: 0 !important;
+    padding-bottom: 4px;
+    transition: all .5s;
+}
+
+header .container h1{
+    font-size: 5vw;
+    line-height: 1;
+    text-shadow: 1px 2px 3px #666;
+}
+
+.btnLearnMore{
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: 2px solid white;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.btnLearnMore:hover{
+    transform: scale(1.1);
+    color: white;
+    border: 3px solid white;
+}
+
+/* Main Content */
+.mainContent{
+    background-image: url(../assets/img/main-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+    color: white;
+}
+
+.mainContent .container{
+    height: 100vh;
+}
+
+.mainContent .container .imgDisc{
+    border-radius: 900px;
+    width: 45%;
+    left: -23%;
+    top: 15%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.mainResponsiveBtn, .mainResponsiveCheckbox, .mainResponsiveBtnTwo{
+    display: none;
+}
+
+.mainContentWrapper{
+    z-index: 99;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/* Detail Content */
+.detailContent{
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.detailContent .container{
+    height: 100vh;
+}
+
+.detailContent .container h2, p{
+    color: white !important;
+}
+
+.musicImg{
+    display: block;
+    z-index: 999;
+    right: 0;
+    bottom: -15%;
+    width: 20%;
+}
+
+
+/* Partner Content */
+.partnerContent, .partnerContent .container{
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    color: white !important;
+}
+
+.partnerContent .container p{
+    color: #1e1e1e !important;
+}
+
+
+
+
+@media screen and (max-width:992px){
+    .mainContent .container .imgDisc{
+        top: -40%;
+        left: 25%;
+    }
+
+    .mainResponsive, .mainResponsiveFour{
+        display: none;
+    }
+
+    .mainResponsiveBtn{
+        display: block;
+        
+    }
+
+    .mainResponsiveBtnTwo, .mainResponsiveBtn{
+        color: white;
+    }
+
+    .mainResponsiveCheckbox{
+        display: block;
+        width: 50px;
+        height: 30px;
+        cursor: pointer;   
+        opacity: 0;
+    }
+
+    .mainContent .container{
+        align-items: center !important;
+    }
+
+    .mainResponsiveTwo.clicked, .mainResponsiveThree.clicked{
+        display: none;
+    }
+
+    .mainResponsiveFour.clicked{
+        display: block;
+        margin-bottom: 0 !important;
+    }
+
+    .mainResponsive.clicked{
+        display: block;
+        margin-top: 0 !important;
+    }
+
+    .mainResponsiveBtn.clicked{
+        display: none;
+    }
+
+    .mainResponsiveBtnTwo.clicked{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:778px){
+    .mainContent .container .mainContentWrapper{
+        overflow-x: hidden;
+        border-radius: 60px !important;
+    }
+
+    .mainContent .container .card{
+        height: 60% !important;
+ 
+    }
+
+    .card-img{
+        display: inline-block;
+        width: 220%;
+        height: 100%;
+        
+        
+    }
+
+    .mainContent .container .imgDisc{
+        top: -18%;
+        left: 25%;
+    } 
+}
+
+@media screen and (max-width:576px){
+    .partnerContent .container .row.responsive{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin: auto !important;
+    }
+
+    .partnerContent .container .row.responsive .col-sm-12{
+        width: 80% !important;
+    }
+
+}

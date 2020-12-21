@@ -1,0 +1,13 @@
+header-bg.jpg : https://unsplash.com/photos/TGZJgPjMky4
+2-Questa_Regular.otf : https://www.fontspring.com/account/sku_download/font/TQP1040442
+about1.jpg : https://unsplash.com/photos/gUK3lA3K7Yo
+disc.png :https://runrunrecords.com/web/image/product.product/4012/image?unique=ab3cd01
+main-bg.jpg : https://unsplash.com/photos/aWXVxy8BSzc
+concert1.jpg : https://unsplash.com/photos/4_M8uIfPEZw
+concert2.jpg : https://unsplash.com/photos/erQQ_Po66CE
+concert3.jpg : https://unsplash.com/photos/uD0W-swVGgE
+music.svg : https://www.flaticon.com/free-icon/music_876817?term=music&page=1&position=1&related_item_id=876817
+logo1.jpg : https://seeklogo.com/vector-logo/261658/sony-music
+logo2.jpg : https://seeklogo.com/vector-logo/65378/harman-kardon
+logo3.jpg : https://fdcdentalclinic.co.id/wp-content/uploads/2019/06/logo-ovo.jpg
+logo4.jpg : https://www.freepik.com/free-vector/ecofood-logo-template_944341.htm#page=1&query=food%20logo&position=8
