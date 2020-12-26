@@ -1,185 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swara</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    
-    <header class="d-flex flex-column justify-content-between">
-      <!-- Navbar -->
-      <div class="" style="height: 100px;"></div>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
-          <div class="container containerNav">
-            <a class="navbar-brand me-5" href="#">Swara</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav mt-2 ms-auto">
-                <a class="nav-link me-3" href="#">Home</a>
-                <a class="nav-link me-3" href="#">About Us</a>
-                <a class="nav-link me-3" href="#">Our Partner</a>
-              </div>
-            </div>
-          </div>
-      </nav>
-      <!-- Main Header Text -->
-      <div class="container wrapperMainHeader">
-        <h1>Everything about music is us. Have an idea of making an unforgottable music event? Just collaborate with us!</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-scroll">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-family: 'Questa'; font-size: 30px;">Swara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div style="font-weight: 500;" class="navbar-nav mt-1 ms-auto">
+          <a class="nav-link ms-2" href="#home">Home</a>
+          <a class="nav-link ms-2" href="#aboutus">About Us</a>
+          <a class="nav-link ms-2" href="#ourexperience">Our Career</a>
+          <a class="nav-link ms-2" href="#pricing">Pricing</a>
+          <a class="nav-link ms-2" href="#ourpartner">Our Partner</a>
+          <a class="nav-link ms-2" href="#contactus">Contact</a>
+        </div>
       </div>
-      <!-- Button Header -->
-      <div class="container wrapper buttonHeader">
-        <a href="#" class="btnLearnMore text-decoration-none">Learn More</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h1 class="fs-1">Everything about <span style="font-weight: 600;">music</span> is us. Have an idea of making an
+        unforgottable music event?
+        Just
+        collaborate with us!
+      </h1>
+    </div>
+  </header>
+
+  <!-- About Us -->
+  <section class="aboutus pt-5 pb-5" id="aboutus">
+    <div class="container position-relative">
+      <div class="row mb-3">
+        <div class="col text-center">
+          <h2 style="font-weight: 700;">Who We Are</h2>
+        </div>
       </div>
-    </header>
+      <div class="row">
+        <div class="col-xl-4 mt-3 col-md-12">
+          <img src="assets/img/disc.png" class="discImg">
+        </div>
+        <div class="col-xl-8 wrapperTextAbout p-5 col-md-12">
+          <p style="font-weight: 500;">[sw.a.ra] ~ [su.a.ra]</p>
+          <p style="font-weight: 500;">Hello Folks!</p>
+          <p>Swara are a team that very love music from 2016 until the world stop spinning. We can make your dream come
+            true as long it's about music. We can help you to realize any music event on every level depends on your
+            budget.</p>
+          <p>
+            Swara are the largest music event organizer in Java Island, Indonesia. Because of that, there are no reason
+            for you, our beloved customer, to doubt our experience, trust, and quality of our services. We can guarantee
+            that everything that you want gonna be realized.
+          </p>
+          <p>Swara ~ Founded in 2016 by Imam Faraz Aditya at Yogyakarta, Indonesia.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
 
-    <!-- Main Content -->
-    <section class="mainContent position-relative">
-      <!-- Card -->
-      <div class="container d-flex flex-column justify-content-between align-items-end">
-        <div style="height: 100px;"></div>
-        <div class="card bg-dark text-white position-relative" style="width: 84%; border-radius: 500px;">
-          <img src="assets/img/disc.png" class="imgDisc position-absolute">
-          <div class="mainContentWrapper">
-          <img src="assets/img/about1.jpg" class="card-img" style="border-radius: 50px; z-index: 99;">
-          <div class="card-img-overlay p-5 d-flex flex-column" style="z-index: 99;">
-            <h5 class="card-title fs-1 mainResponsiveTwo" style="font-family: 'Questa';">Swara</h5>
-            <p class="card-text fs-4 mainResponsiveThree">[sw.a.ra] ~ [su.a.ra]<br>Founded in 2016 by Imam Faraz Aditya at Yogyakarta, Indonesia.</p>
-            <p class="card-text fs-4 mt-5 mainResponsive">Hello Folks!</p>
-            <p class="card-text fs-4 mainResponsiveFour">We are a team that very love music from 2016 until the world stop spinning. We can make your dream come true as long it's about music. We can help on every level of event depends on your budget.</p>
-            <div class="mainBtn d-flex justify-content-center mt-auto position-relative">
-              <a class="mainResponsiveBtn text-center text-decoration-none">Next</a>
-              <a class="mainResponsiveBtnTwo text-center text-decoration-none">Back</a>
-              <input type="checkbox" class="position-absolute mainResponsiveCheckbox">
+  <!-- Our Experience -->
+  <section class="ourexperience pb-5" id="ourexperience">
+    <div class="container">
+      <h2 style="font-weight: 700;" class=" pb-4 tittleExperience">Our Experience</h2>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 experience experience1 p-4 position-relative" style="color: white;">
+          <p style="font-size: .8em; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);">23 FEBRUARY 2019
+          </p>
+          <p class="region" style="text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);">BDG</p>
+        </div>
+        <div class="col-lg-8 col-sm-12 p-4 ps-5 experiencetext" style="background-color: white;">
+          <p><span style="font-weight: 500; font-size: 1.2em;">LaLaLa Concert</span> <br>Bandung, West Java, Indonesia.
+          </p>
+          <p>The LaLaLa concert was held on 23 February 2020. Attended by 5000 spectators that made this concert the
+            biggest concert in Bandung this year.</p>
+          <a class="btn btn-outline-danger youtubebtn" href="#">Youtube Documentation</a>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class=" col-lg-4 col-sm-12 experience experience2 p-4 position-relative" style="color: white;">
+          <p style="font-size: .8em; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);">01 MARCH 2019
+          </p>
+          <p class="region" style="text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);">JKT</p>
+        </div>
+        <div class="col-lg-8 col-sm-12 p-4 ps-5 experiencetext" style="background-color: white;">
+          <p><span style="font-weight: 500; font-size: 1.2em;">LaLaLa Concert</span> <br>Bandung, West Java, Indonesia.
+          </p>
+          <p>The LaLaLa concert was held on 23 February 2020. Attended by 5000 spectators that made this concert the
+            biggest concert in Bandung this year.</p>
+          <a class="btn btn-outline-danger youtubebtn" href="#">Youtube Documentation</a>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class=" col-lg-4 col-sm-12 experience experience3 p-4 position-relative" style="color: white;">
+          <p style="font-size: .8em; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);">22 JUNE 2019
+          </p>
+          <p class="region" style="text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);">SBY</p>
+        </div>
+        <div class="col-lg-8 col-sm-12 p-4 ps-5 experiencetext" style="background-color: white;">
+          <p><span style="font-weight: 500; font-size: 1.2em;">LaLaLa Concert</span> <br>Bandung, West Java,
+            Indonesia.
+          </p>
+          <p>The LaLaLa concert was held on 23 February 2020. Attended by 5000 spectators that made this concert the
+            biggest concert in Bandung this year.</p>
+          <a class="btn btn-outline-danger youtubebtn" href="#">Youtube Documentation</a>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Pricing -->
+  <section class="pricing pt-5 pb-5" id="pricing">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <h2 class="mb-3" style="font-weight: 700;">Pricing</h2>
+          <p><u>We have two price segmentations that commonly used by the people.</u></p>
+          <p>The segmentation is based on the number of viewers, location size, and many other things that we cannot
+            mention one by one here.</p>
+          <p>However, if you can't find a package that matches with something that you want here, you can conctact us
+            for any other packages.</p>
+          <p>Dont worry about everything, because Swara is flexible.</p>
+          <button type="button" class="btn btn-light mt-5 mb-5"><a style="color: black; text-decoration: none;"
+              href="#contact">Contact Us</a></button>
+        </div>
+        <div class="col pricingcard p-5 m-2">
+          <h5>Prestige Concert</h5>
+          <p style="font-weight: 400;">For a big scale of concert.</p>
+          <p style="font-weight: 700; font-size: 1.5em;">Rp 300 Juta</p>
+          <p style="font-weight: 400; font-size: .9em;">Exclude rent a place</p>
+          <button type="button" class="btn btn-outline-dark">Choose This</button>
+          <ul class="mt-4" style="line-height: 2;">
+            <li>7 Guest Star</li>
+            <li>A Very Wonderful Stage</li>
+            <li>Food Tent</li>
+            <li>5 Big Screen On The Stage</li>
+            <li>15000 Spectator</li>
+          </ul>
+        </div>
+        <div class="col pricingcard p-5 m-2">
+          <h5>Starter Concert</h5>
+          <p style="font-weight: 400;">For a small scale of concert.</p>
+          <p style="font-weight: 700; font-size: 1.5em;">Rp 100 Juta</p>
+          <p style="font-weight: 400; font-size: .9em;">Exclude rent a place</p>
+          <button type="button" class="btn btn-outline-dark">Choose This</button>
+          <ul class="mt-4" style="line-height: 2;">
+            <li>3 Guest Star</li>
+            <li>A Wonderful Stage</li>
+            <li>Food Tent</li>
+            <li>5000 Spectators</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our Partner -->
+  <!-- <section class="ourpartner" id="ourpartner">
+    <div class="container">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab"
+            aria-controls="pills-profile" aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <section class="ourpartner pt-5 pb-5" id="ourpartner">
+    <div class="container"
+      style="background-color: rgb(255, 255, 255); border-radius: 20px; box-shadow: 0px 0px 5px rgba(161, 161, 161, 0.3);">
+      <h2 class="mb-4 text-center pt-5" style="font-weight: 700;">Our Partner</h2>
+      <div class="row p-5">
+        <div class="col-lg-3 col-md-6 mb-md-5 mb-sm-5">
+          <div class="card h-100">
+            <img src="assets/img/logo1.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body text">
+              <p class="card-text">Since 2016 Sony Music Indonesia support on every our event.</p>
             </div>
           </div>
         </div>
-        </div>
-        <div style="height: 100px;"></div>
-      </div>
-    </section>
-
-
-    <!-- Detail Content -->
-    <section class="detailContent">
-      <div class="container d-flex flex-column justify-content-between">
-        <div class="" style="height: 100px;"></div>
-        <div class="row">
-          <div class="col">
-            <h2 class="text-dark text-center" style="font-weight: 600;">What You Can Do With Us?</h2>
-            <p class="fs-4 text-center">You can do anything about music event with us. But if you're confused. Check this out!</p>
-            <div id="carouselExampleCaptions" class="carousel slide position-relative" data-bs-ride="carousel">
-              <img src="assets/img/music.svg" class="position-absolute musicImg">
-              <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner rounded-3 position-relative">
-                <div class="carousel-item active">
-                  <img src="assets/img/concert1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Night Concert</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/concert2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Classical Music Concert</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/concert3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Beach Concert</h5>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </a>
+        <div class="col-lg-3 col-md-6 mb-md-5 mb-sm-5">
+          <div class="card h-100">
+            <img src="assets/img/logo2.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+              <p class="card-text">Harman Kardon is our consultant since 2018.</p>
             </div>
           </div>
         </div>
-        <div class="" style="height: 100px;"></div>
-      </div>
-    </section>
-
-
-    <!-- Partner Content -->
-    <section class="partnerContent">
-      <div class="container d-flex flex-column justify-content-between">
-        <div class="" style="width: 100px;"></div>
-        <div class="row">
-          <div class="col mb-5">
-            <h2 class="text-center" style="font-weight: 600;">Our Partnership</h2>
-          </div>
-          <div class="row justify-content-center responsive">
-            <div class="col-md-5 col-lg-3 col-sm-12 mb-5">
-              <div class="card h-100">
-                <img src="assets/img/logo1.jpg" class="card-img-top p-5">
-                <div class="card-body">
-                  <p class="card-text">Since 2016 Sony Music Indonesia support on every our event.</p>
-                </div>
-              </div>  
-            </div>
-            <div class="col-md-5 col-lg-3 col-sm-12 mb-5">
-              <div class="card h-100">
-                <img src="assets/img/logo2.jpg" class="card-img-top p-5" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Harman Kardon is our consultant since 2018.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-5 col-lg-3 col-sm-12 mb-5">
-              <div class="card h-100">
-                <img src="assets/img/logo3.jpg" class="card-img-top p-5" alt="...">
-                <div class="card-body">
-                  <p class="card-text">We collaborate with OVO from 2017, for payment method on every our event.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-5 col-lg-3 col-sm-12 mb-5">
-              <div class="card h-100">
-                <img src="assets/img/logo4.jpg" class="card-img-top p-5" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Our secret recipe for the event. ecofood!</p>
-                </div>
-              </div>
+        <div class="col-lg-3 col-md-6 mb-sm-5">
+          <div class="card h-100">
+            <img src="assets/img/logo3.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+              <p class="card-text">We collaborate with OVO from 2017, for payment method on every our event.</p>
             </div>
           </div>
         </div>
-        <div class="" style="width: 100px;"></div>
+        <div class="col-lg-3 col-md-6 mb-sm-5">
+          <div class="card h-100">
+            <img src="assets/img/logo4.jpg" class="card-img-top p-5" alt="...">
+            <div class="card-body">
+              <p class="card-text">Our secret recipe for the event. ecofood!</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+
+  <!-- Contact Us -->
+  <section class="contactus">
+    <div class="container">
+
+    </div>
+  </section>
 
 
 
-    
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script>
-      $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop()>50);
-      })
-    </script>
-    <script src="js/script.js"></script>
+
+
+
+
+
+  <!-- Bootstrap Script -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+      $('nav a').toggleClass('scrolled', $(this).scrollTop() > 600);
+    })
+  </script>
 </body>
+
 </html>

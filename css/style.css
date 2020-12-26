@@ -1,249 +1,300 @@
-@font-face{
+@font-face {
     font-family: 'Questa';
     src: url(../assets/font/2-Questa_Regular.otf);
 }
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+
+body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
-.dadang{
-    border: 1px solid white;
+body h2 {
+    font-size: 1.5em;
 }
+
+.container {
+    height: 100%;
+
+}
+
+
+/* Navbar */
+nav a,
+header {
+    color: #FEFEFE !important;
+}
+
+.nav-scroll.scrolled {
+    background-color: rgb(242, 246, 249) !important;
+    transition: all .5s;
+    box-shadow: 0 2px 5px rgba(133, 133, 133, 0.5);
+}
+
+nav a.scrolled {
+    color: rgb(41, 41, 41) !important;
+}
+
 
 /* Header */
-header{
-    background-image: url(../assets/img/header-bg.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: 50% 50%;
-    color: white !important;
-    padding-bottom: 60px;
-}
-
-.navbar-brand{
-    font-family: 'Questa', sans-serif;
-}
-
-.navbar a{
-    color: white !important;
-    font-size: 1.1rem;
-    text-shadow: 1px 2px 3px #666;
-}
-
-.container .navbar-brand{
-    font-size: 2rem;
-}
-
-.navbar a:hover{
-    color: rgb(189, 189, 189) !important;
-}
-
-.bg-light{
-    background-color: transparent !important;
-    transition: all .5s;
-}
-
-.bg-light.scrolled{
-    background-color:  rgba(41, 41, 41, 0.3) !important;
-}
-
-nav.scrolled{
-    padding-top: 0 !important;
-    padding-bottom: 4px;
-    transition: all .5s;
-}
-
-header .container h1{
-    font-size: 5vw;
-    line-height: 1;
-    text-shadow: 1px 2px 3px #666;
-}
-
-.btnLearnMore{
-    margin: auto;
-    margin-top: 100px;
-    display: block;
-    color: white;
-    width: 120px;
-    height: 35px;
-    border: 2px solid white;
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: all 1s;
-}
-
-.btnLearnMore:hover{
-    transform: scale(1.1);
-    color: white;
-    border: 3px solid white;
-}
-
-/* Main Content */
-.mainContent{
-    background-image: url(../assets/img/main-bg.png);
+header {
+    background-image: url(../assets/img/hero.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow-y: hidden;
+    height: 650px;
+    background-size: 100%;
+    transition: 1s;
+}
+
+header:hover {
+    background-size: 105%;
+}
+
+header h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+
+/* About Us */
+.aboutus {
+    background-color: #F2F6F9;
+    height: 100%;
+}
+
+.discImg {
+    width: 95%;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+.wrapperTextAbout {
+    background-image: url(../assets/img/about1.jpg);
     color: white;
-}
-
-.mainContent .container{
-    height: 100vh;
-}
-
-.mainContent .container .imgDisc{
-    border-radius: 900px;
-    width: 45%;
-    left: -23%;
-    top: 15%;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-
-.mainResponsiveBtn, .mainResponsiveCheckbox, .mainResponsiveBtnTwo{
-    display: none;
-}
-
-.mainContentWrapper{
-    z-index: 99;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-/* Detail Content */
-.detailContent{
-    height: 100vh;
-    background-color: #1e1e1e;
-}
-
-.detailContent .container{
-    height: 100vh;
-}
-
-.detailContent .container h2, p{
-    color: white !important;
-}
-
-.musicImg{
-    display: block;
-    z-index: 999;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    background-size: 100%;
+    position: absolute;
     right: 0;
-    bottom: -15%;
-    width: 20%;
+    width: 80%;
+    height: min-content;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 1s;
+    background-position: center;
+}
+
+.wrapperTextAbout:hover {
+    background-size: 105%;
 }
 
 
-/* Partner Content */
-.partnerContent, .partnerContent .container{
-    min-height: 100vh;
-    background-color: #1e1e1e;
-    color: white !important;
+/* Our Experience */
+.ourexperience {
+    background-color: #F2F6F9;
+    line-height: 1.7;
 }
 
-.partnerContent .container p{
-    color: #1e1e1e !important;
+.experience {
+    min-height: 300px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    transform: translateX(10px);
+    z-index: 2;
+    box-shadow: 0px 0px 5px rgba(161, 161, 161, 0.3);
+    transition: 1s;
+}
+
+.experience:hover {
+    background-size: 150%;
+}
+
+.experience1 {
+    background-image: url(../assets/img/experience1.jpg);
+}
+
+.experience2 {
+    background-image: url(../assets/img/experience2.jpg);
+}
+
+.experience3 {
+    background-image: url(../assets/img/experience3.jpg);
+}
+
+.experiencetext {
+    transform: translatex(-10px);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(161, 161, 161, 0.3);
+    position: relative;
+    min-height: 300px;
+}
+
+.region {
+    position: absolute;
+    bottom: 0;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.youtubebtn {
+    position: absolute;
+    bottom: 30px;
+}
+
+
+
+/* Pricing */
+.pricing {
+    background-image: linear-gradient(to right, #D0DAE4, #BDD4DB);
+
+}
+
+.btn-light {
+    transition: all .5s;
+}
+
+.btn-light:hover {
+    box-shadow: 0 0 5px rgba(133, 133, 133, 0.5);
+    transform: scale(1.1);
+}
+
+.pricingcard {
+    background-color: white;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.pricingcard:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(133, 133, 133, 0.5);
 }
 
 
 
 
-@media screen and (max-width:992px){
-    .mainContent .container .imgDisc{
-        top: -40%;
-        left: 25%;
-    }
-
-    .mainResponsive, .mainResponsiveFour{
-        display: none;
-    }
-
-    .mainResponsiveBtn{
-        display: block;
-        
-    }
-
-    .mainResponsiveBtnTwo, .mainResponsiveBtn{
-        color: white;
-    }
-
-    .mainResponsiveCheckbox{
-        display: block;
-        width: 50px;
-        height: 30px;
-        cursor: pointer;   
-        opacity: 0;
-    }
-
-    .mainContent .container{
-        align-items: center !important;
-    }
-
-    .mainResponsiveTwo.clicked, .mainResponsiveThree.clicked{
-        display: none;
-    }
-
-    .mainResponsiveFour.clicked{
-        display: block;
-        margin-bottom: 0 !important;
-    }
-
-    .mainResponsive.clicked{
-        display: block;
-        margin-top: 0 !important;
-    }
-
-    .mainResponsiveBtn.clicked{
-        display: none;
-    }
-
-    .mainResponsiveBtnTwo.clicked{
-        display: block;
-    }
-    
+/* Our Partner */
+.ourpartner {
+    background-color: #F2F6F9;
+    height: 100%;
 }
 
-@media screen and (max-width:778px){
-    .mainContent .container .mainContentWrapper{
-        overflow-x: hidden;
-        border-radius: 60px !important;
-    }
-
-    .mainContent .container .card{
-        height: 60% !important;
- 
-    }
-
-    .card-img{
-        display: inline-block;
-        width: 220%;
-        height: 100%;
-        
-        
-    }
-
-    .mainContent .container .imgDisc{
-        top: -18%;
-        left: 25%;
-    } 
+.card {
+    transition: all .5s;
+    border: 1px solid rgb(207, 207, 207) !important;
+    border-radius: 20px;
 }
 
-@media screen and (max-width:576px){
-    .partnerContent .container .row.responsive{
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin: auto !important;
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 3px rgba(133, 133, 133, 0.5);
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width:1200px) {
+
+    .wrapperTextAbout {
+        top: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        height: min-content;
     }
 
-    .partnerContent .container .row.responsive .col-sm-12{
-        width: 70% !important;
+    .aboutus {
+        height: 850px;
     }
 
+    .discImg {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:993px) {
+    .aboutus {
+        height: 950px;
+    }
+
+
+}
+
+@media screen and (max-width:991px) {
+
+    .experience {
+        transform: translateX(0);
+    }
+
+    .experiencetext {
+        transform: translatex(0);
+        transform: translateY(-40px);
+        padding-top: 70px !important;
+        border-bottom-left-radius: 10px;
+    }
+
+
+    .youtubebtn {
+        position: unset;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .aboutus {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width:762px) {
+    .wrapperTextAbout {
+        top: 25%;
+    }
+
+    .container {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:534px) {
+    .aboutus {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .mb-sm-5 {
+        margin-bottom: 3rem !important;
+    }
+}
+
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
