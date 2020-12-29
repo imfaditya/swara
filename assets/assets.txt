@@ -9,3 +9,8 @@ experience1.jpg : https://unsplash.com/photos/Sv8OH4CDPLw
 experience2.jpg : https://unsplash.com/photos/sqJ4tLBiurw
 experience3.jpg : https://unsplash.com/photos/Jb7TLs6fW_I
 people.png : https://unsplash.com/photos/n19qtMX3nNY
+maps.png : https://snazzymaps.com/style/24088/map-without-labels
+icon-location.png : https://icons8.com/icons/set/location--white
+instagram.png : https://www.flaticon.com/free-icon/instagram_1384015 dirubah warna menggunakan https://iconscout.com/icon-editor dan diconvert menjadi png
+whatsapp.png : https://www.flaticon.com/free-icon/whatsapp_1384007 dirubah warna menggunakan https://iconscout.com/icon-editor dan diconvert menjadi png
+youtube.png : https://www.flaticon.com/free-icon/youtube_1384012 dirubah warna menggunakan https://iconscout.com/icon-editor dan diconvert menjadi png
